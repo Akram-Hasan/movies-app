@@ -36,7 +36,7 @@ export default function SearchScreen() {
     const handleTextDebounce = useCallback(debounce(handleSearch, 400), []);    
 
   return (
-    <SafeAreaView className="bg-neutral-800 flex-1">
+    <SafeAreaView className="bg-neutral-600 flex-1">
 
         {/* search input */}
         <View 
